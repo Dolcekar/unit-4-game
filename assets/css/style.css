@@ -1,20 +1,24 @@
 body{
     margin: auto;
     max-width: auto;
-    height: 1200px;
+    height: 700px;
     width: 1200px;
 }
 
 #background{
     background-image: url(../images/bluePattern.png);
-    height: 1200px;
+    height: 700px;
     width: 1200px;
     background-repeat: repeat;
+}
+.jumbotron-fluid{
+    
+    box-shadow: 10px 10px 5px grey;
 }
 /*---------------------------------------*/
 
 
-    h1, h3, span{
+    h1, h3, span{ 
     font-weight: bold;
     text-align: center;
     }
@@ -43,25 +47,13 @@ body{
     }
     .userTotal{
     width: 15%;
-    height: 60px;
-    }
+    /* /* height: 40px; */
+    } 
     .gems{
     clear: both;
+   
     }
     .gemImage{
     height: 60px;
     margin: 10px;
-    }
-    /* IDs */
-    #blue{
-    color: #3092c7;
-    }
-    #green{
-    color: #00aa59;
-    }
-    #red{
-    color: #ec4b5f;
-    }
-    #yellow{
-    color: #ffc225;
     }
